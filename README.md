@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-    <sub>Tech and data enthusiast · <a href="https://datathink.com">Datathink</a></sub>
+    <sub>Tech and data enthusiast · <a href="https://github.com/datathink">Datathink</a></sub>
 </p>
 
 ### Languages
