@@ -31,8 +31,6 @@ jobs:
 
       - name: Generate README
         run: npm run build
-        env:
-          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
 
       - name: Commit and push README
         uses: stefanzweifel/git-auto-commit-action@v5

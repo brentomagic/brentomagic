@@ -29,22 +29,16 @@ const DATA = {
 };
 
 async function setWeatherInformation() {
-  const apiKey = process.env.OPENWEATHER_API_KEY;
-  if (!apiKey) {
-    console.warn("OPENWEATHER_API_KEY not set; skipping weather fetch.");
-    return;
-  }
-
   const { latitude, longitude } = CONFIG;
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
+  const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&temperature_unit=fahrenheit`;
 
   const response = await fetch(apiUrl);
   if (!response.ok) {
-    throw new Error(`OpenWeather request failed: ${response.status}`);
+    throw new Error(`Open-Meteo request failed: ${response.status}`);
   }
 
   const weather = await response.json();
-  DATA.temp = String(Math.round(weather.main.temp));
+  DATA.temp = String(Math.round(weather.current.temperature_2m));
 }
 
 function generateReadMe() {
