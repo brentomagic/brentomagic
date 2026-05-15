@@ -30,7 +30,7 @@ const DATA = {
 
 async function setWeatherInformation() {
   const { latitude, longitude } = CONFIG;
-  const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&temperature_unit=fahrenheit`;
+  const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&temperature_unit=celsius`;
 
   const response = await fetch(apiUrl);
   if (!response.ok) {
