@@ -22,6 +22,7 @@
 <p>
     <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
     <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+    
     <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
     <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
 </p>
@@ -40,7 +41,7 @@
 <table>
     <tr>
         <td align="center" valign="middle">
-            <img alt="Duck" src="./img/duck.webp" width="64" />
+            <img alt="Duck" src="./img/duck.svg" width="64" />
         </td>
         <td valign="middle">
             <strong>Lagos, NG</strong><br />
@@ -53,6 +54,6 @@
 
 <p align="center">
     <sub>
-        This README auto-updates every 3 hours, and does not count toward contribution graph &nbsp;•&nbsp; Last refresh: Friday 15 May at 11:02 GMT+1
+        This README auto-updates every 3 hours, and does not count toward contribution graph &nbsp;•&nbsp; Last refresh: Friday 15 May at 11:18 GMT+1
     </sub>
 </p>
