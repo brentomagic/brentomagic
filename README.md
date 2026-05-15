@@ -41,7 +41,7 @@
 <table>
     <tr>
         <td align="center" valign="middle">
-            <img alt="Duck" src="./img/duck.svg" width="64" />
+            <img alt="Weather" src="./img/weather.png" width="64" />
         </td>
         <td valign="middle">
             <strong>Lagos, NG</strong><br />
@@ -54,6 +54,6 @@
 
 <p align="center">
     <sub>
-        This README auto-updates every 3 hours, and does not count toward contribution graph &nbsp;•&nbsp; Last refresh: Friday 15 May at 11:18 GMT+1
+        This README auto-updates every 3 hours, and does not count toward contribution graph &nbsp;•&nbsp; Last refresh: Friday 15 May at 11:20 GMT+1
     </sub>
 </p>
