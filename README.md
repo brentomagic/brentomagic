@@ -34,25 +34,3 @@
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
     <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 </p>
-
----
-
-<table>
-    <tr>
-        <td align="center" valign="middle">
-            <img alt="Weather" src="./img/weather.png" width="64" />
-        </td>
-        <td valign="middle">
-            <strong>Lagos, NG</strong><br />
-            <span>27°C</span>
-        </td>
-    </tr>
-</table>
-
----
-
-<p align="center">
-    <sub>
-        This README auto-updates every 3 hours, and does not count toward contribution graph &nbsp;•&nbsp; Last refresh: Friday 15 May at 11:20 GMT+1
-    </sub>
-</p>
