@@ -1,0 +1,14 @@
+{
+  "name": "brentomagic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile README",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.7.0"
+  }
+}
